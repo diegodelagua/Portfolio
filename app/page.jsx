@@ -17,14 +17,16 @@ const Home = () =>{
           <h1 className="h1">
             Hola, mi nombre es <br /> <span className="text-cyan-600">Diego Del Agua</span>
           </h1>
-          <p className="max-w-[500px] mb-9 text-white/80">redaccion mia</p>
+          <br /><p className="max-w-[500px] mb-9 text-white/80">Desarrollador web en formación, listo para enfrentar nuevos desafíos.
+          Estoy buscando mi primera oportunidad laboral para aplicar mis conocimientos y seguir aprendiendo. En este porfolio encontrarás
+          mis proyectos recientes y cómo puedes contactarme para colaborar en futuras oportunidades. Desde ya muchas gracias!</p>
           <div className="flex flex-col xl:flex-row items-center gap-8">
             <Button
               size="lg"
               variant="outline"
               className="uppercase flex items-center gap-2 text-cyan-600 hover:text-black"
             >
-              <span>Descargar CV</span>
+              <a href="assets\CV.pdf" download="Curriculum">Descargar CV</a>
               <FiDownload className="text-xl"/>
             </Button>
             <div className="mb-8 xl:mb-0 ">

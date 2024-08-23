@@ -24,8 +24,8 @@ const projects = [
     {
         num:"01",
         category:"frontend",
-        title:"project 1",
-        description: "asdasda",
+        title:"Enebro",
+        description: "Sitio estático que muestra una carta de presentacion de comercio gastronomico",
         stack: [{name:"Html5"},{name:"Bootstrap"},{name:"Sass"}],
         image: "/assets/Enebro.png",
         live:"https://enebro.netlify.app",
@@ -34,8 +34,8 @@ const projects = [
     {
         num:"02",
         category:"frontend",
-        title:"project 2",
-        description: "asdasda",
+        title:"La Funkeria",
+        description: "Sitio E-commerce dinámico enfocado en la venta de funkos",
         stack: [{name:"Html5"},{name:"Tailwind.css"},{name:"Javascript"}],
         image: "/assets/Funkeria.png",
         live:"https://diegodelagua.github.io/La-Funkeria/",
@@ -44,8 +44,8 @@ const projects = [
     {
         num:"03",
         category:"frontend",
-        title:"project 3",
-        description: "asdasda",
+        title:"Books",
+        description: "Sitio E-commerce dinámico enfocado en la venta de libros",
         stack: [{name:"Html5"},{name:"React"},{name:"Tailwind.css"},{name:"Javascript"}],
         image: "/assets/Books.png",
         live:"https://books-net.netlify.app/",
@@ -82,7 +82,7 @@ const Work = () => {
                         </div>
                         {/* project category*/}
                         <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-cyan-600 
-                        transition-all duration-500 capitalize">{project.category} project
+                        transition-all duration-500 capitalize">{project.title}
                         </h2>
                         {/* project description */}
                         <p className="text-white/60">{project.description}</p>

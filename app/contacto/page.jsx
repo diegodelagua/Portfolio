@@ -10,17 +10,17 @@ const info = [
     {
         icon: <FaPhoneAlt/>,
         title: "Teléfono",
-        desciption: "(+59) 2262 613851"
+        description: "(+54) 2262 613851"
     },
     {
         icon: <FaEnvelope/>,
         title: "Email",
-        desciption: "diego.delagua@hotmail.com"
+        description: "diegodelagua.dev@gmail.com"
     },
     {
         icon: <FaMapMarkedAlt/>,
         title: "Dirección",
-        desciption: "56-2416, Necochea, Buenos Aires, Argentina"
+        description: "56-2416, Necochea, Buenos Aires, Argentina"
     }
 ];
 
@@ -40,10 +40,12 @@ const Contact = () => {
                 <div className="flex flex-col xl:flex-row gap-[30px]">
                     {/* form */}
                     <div className="xl:w-[54%] order-2 xl:order-none">
-                        <form action="https://formspree.io/f/movakboe" method="POST" className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+                        <form action="https://formspree.io/f/xovapwng" method="POST" className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                             <h3 className="text-4xl text-cyan-600">Trabajemos juntos</h3>
                             <p className="text-white/60">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus aliquid natus impedit voluptatem. Nulla, adipisci nostrum eum aliquam ea unde! Delectus ullam ea accusantium corrupti? Ipsam, repellat. Exercitationem, ea.
+                            ¡Hola! Estoy iniciando mi camino en el desarrollo web y estoy buscando oportunidades para aplicar mis habilidades
+                            y crecer en esta industria. Si tienes un proyecto o una posición en mente, me encantaría ser parte de ello.
+                             Completa el formulario y estaré en contacto lo antes posible.
                             </p>
                             {/*input*/}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -72,7 +74,7 @@ const Contact = () => {
                                         </div>
                                         <div className="flex-1">
                                             <p className="text-white/60">{item.title}</p>
-                                            <h3 className="text-xl">{item.desciption}</h3>
+                                            <h3 className="text-xl">{item.description}</h3>
                                         </div>
                                     </li>
                                 )

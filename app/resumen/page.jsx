@@ -6,7 +6,7 @@ import{SiTailwindcss, SiNextdotjs} from 'react-icons/si';
 
 const about = {
     title: "Sobre mi",
-    description:"Mi informacion basica",
+    description:"Datos Personales",
     info: [
         {
             fieldName: "Nombre:",
@@ -14,7 +14,7 @@ const about = {
         },
         {
             fieldName: "Telefono:",
-            fieldValue: "(+59) 2262 613851"
+            fieldValue: "(+54) 2262 613851"
         },
         {
             fieldName: "Nacionalidad:",
@@ -22,7 +22,7 @@ const about = {
         },
         {
             fieldName: "Email:",
-            fieldValue: "diego.delagua@hotmail.com"
+            fieldValue: "diegodelagua.dev@gmail.com"
         },
         {
             fieldName: "Idiomas:",
@@ -33,8 +33,8 @@ const about = {
 
 const education = {
     icon: "/assets/resume/cap.svg",
-    title: "Mi Educacion",
-    description: "Capacitacion adquirida",
+    title: "Mi Educación",
+    description: "Capacitación adquirida",
     items: [
         {
             institution:"Coderhouse",
